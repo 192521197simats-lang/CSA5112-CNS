@@ -1,0 +1,55 @@
+EXP 2 
+#include <stdio.h>
+#include <ctype.h>
+#include <string.h>
+
+int main() {
+    char text[100];
+    char key[] = "QWERTYUIOPASDFGHJKLZXCVBNM";
+    char alphabet[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    char encrypted[100];
+    int i, j;
+
+    printf("Enter a message: ");
+    fgets(text, sizeof(text), stdin);
+
+    // Encryption
+    for (i = 0; text[i] != '\0'; i++) {
+        char ch = toupper((unsigned char)text[i]);
+
+        if (ch >= 'A' && ch <= 'Z') {
+            for (j = 0; j < 26; j++) {
+                if (ch == alphabet[j]) {
+                    encrypted[i] = key[j];
+                    break;
+                }
+            }
+        } else {
+            encrypted[i] = text[i];
+        }
+    }
+    encrypted[i] = '\0';
+
+    printf("Encrypted message: %s", encrypted);
+
+    // Decryption
+    for (i = 0; encrypted[i] != '\0'; i++) {
+        char ch = toupper((unsigned char)encrypted[i]);
+
+        if (ch >= 'A' && ch <= 'Z') {
+            for (j = 0; j < 26; j++) {
+                if (ch == key[j]) {
+                    text[i] = alphabet[j];
+                    break;
+                }
+            }
+        } else {
+            text[i] = encrypted[i];
+        }
+    }
+    text[i] = '\0';
+
+    printf("Decrypted message: %s", text);
+
+    return 0;
+}
