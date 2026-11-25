@@ -1,0 +1,9 @@
+EXP 23 - SAMPLE OUTPUT
+Program output:
+S-DES CTR test-vector task:
+Counter begins at 00000000. For each block compute S_i=E_K(counter_i),
+then C_i=P_i XOR S_i and increment the counter modulo 256.
+CTR decryption uses the same XOR operation with the generated keystream.
+This file is a concise algorithm guide; a complete S-DES block implementation is needed for vector validation.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

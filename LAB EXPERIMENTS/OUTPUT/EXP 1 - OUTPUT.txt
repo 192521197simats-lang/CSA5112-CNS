@@ -1,0 +1,7 @@
+EXP 1 - SAMPLE OUTPUT
+Sample input:
+HELLO WORLD
+3
+
+Program output:
+Enter plaintext: Enter shift key (1-25): Ciphertext: KHOOR ZRUOG

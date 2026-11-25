@@ -1,0 +1,7 @@
+EXP 26 - SAMPLE OUTPUT
+Program output:
+Changing RSA public exponent while keeping the same modulus is unsafe after private-key leakage.
+The leaked d is related to the same p, q, and phi(n); choosing a new exponent does not rotate the modulus.
+Generate a new RSA key pair with a fresh modulus and revoke the compromised key.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

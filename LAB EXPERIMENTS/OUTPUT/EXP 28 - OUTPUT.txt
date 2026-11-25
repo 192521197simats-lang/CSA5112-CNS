@@ -1,0 +1,8 @@
+EXP 28 - SAMPLE OUTPUT
+Program output:
+Public q=23, base a=5
+Alice secret x=6, public A=8
+Bob secret y=15, public B=19
+Alice shared key=2
+Bob shared key=2
+Sending x^a instead of a^x does not create the standard DH exchange and may reveal/enable attacks.

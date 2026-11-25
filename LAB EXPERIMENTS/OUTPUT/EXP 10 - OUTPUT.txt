@@ -1,0 +1,6 @@
+EXP 10 - SAMPLE OUTPUT
+Sample input:
+HIDE THE GOLD
+
+Program output:
+Message: Ciphertext: IKMDHOLENABZ

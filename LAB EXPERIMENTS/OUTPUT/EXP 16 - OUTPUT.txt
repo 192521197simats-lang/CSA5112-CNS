@@ -1,0 +1,8 @@
+EXP 16 - SAMPLE OUTPUT
+Sample input:
+WKH TXLFN EURZQ IRA
+
+Program output:
+Substitution ciphertext: Frequency-based candidate: UNO LMSAH TCEWR IED
+
+Note: frequency substitution is only a rough heuristic; word patterns are needed for accuracy.

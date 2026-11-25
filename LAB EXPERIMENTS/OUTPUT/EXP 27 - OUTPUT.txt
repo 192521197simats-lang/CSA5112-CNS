@@ -1,0 +1,8 @@
+EXP 27 - SAMPLE OUTPUT
+Program output:
+Textbook RSA encrypting each letter separately is insecure.
+It is deterministic: each letter always produces the same ciphertext block.
+An attacker can encrypt all 26 possible letters with the public key and build a lookup table,
+then map ciphertext blocks back to letters. Use randomized padding (e.g., OAEP) instead.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

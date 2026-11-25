@@ -1,0 +1,6 @@
+EXP 18 - SAMPLE OUTPUT
+Program output:
+DES PC-1 splits the 56 effective key bits into C0 and D0, each 28 bits.
+Each round rotates both halves; PC-2 selects 24 bits from C and 24 from D.
+The halves are disjoint because C and D contain separate key-bit subsets.
+This is a structural property of the DES key schedule, not a separate key generator.

@@ -1,0 +1,8 @@
+EXP 30 - SAMPLE OUTPUT
+Program output:
+CBC-MAC extension/forgery demonstration (single-block MAC T=E_K(X)).
+For the two-block message X || (X XOR T), CBC-MAC's second input to E_K becomes T XOR (X XOR T)=X.
+The final MAC is therefore E_K(X)=T, reusing the one-block tag.
+CBC-MAC should be used with fixed-length messages or a secure variant such as CMAC.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

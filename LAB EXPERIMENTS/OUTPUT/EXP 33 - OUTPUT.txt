@@ -1,0 +1,8 @@
+EXP 33 - SAMPLE OUTPUT
+Program output:
+DES overview: 64-bit input block, 56-bit effective key, 16 Feistel rounds.
+Each round uses expansion, XOR with a 48-bit subkey, S-box substitution and permutation.
+DES is obsolete; use AES or a modern authenticated cipher for real protection.
+This file is an algorithm summary rather than a full DES implementation.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

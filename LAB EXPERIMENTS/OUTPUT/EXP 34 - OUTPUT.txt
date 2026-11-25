@@ -1,0 +1,7 @@
+EXP 34 - SAMPLE OUTPUT
+Sample input:
+101010101
+
+Program output:
+Enter plaintext bits: Padded bits (8-bit blocks): 1010101011000000
+A full extra padding block helps distinguish an unpadded message from one ending in padding-like bits.

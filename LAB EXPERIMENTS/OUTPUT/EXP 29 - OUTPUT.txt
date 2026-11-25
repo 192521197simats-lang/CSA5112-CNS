@@ -1,0 +1,9 @@
+EXP 29 - SAMPLE OUTPUT
+Program output:
+SHA-3 lane propagation exercise (permutation ignored).
+For SHA3-256, the state is 1600 bits; capacity is 512 bits (8 lanes of 64 bits).
+If all capacity lanes start zero and each message lane is nonzero, XORing the message into the rate
+does not immediately change capacity lanes. With permutation ignored, they remain zero indefinitely.
+In real SHA-3, the permutation mixes rate and capacity lanes.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

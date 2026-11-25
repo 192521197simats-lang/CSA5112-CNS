@@ -1,0 +1,9 @@
+EXP 12 - SAMPLE OUTPUT
+Sample input:
+HELP
+
+Program output:
+Plaintext letters: meetmeattheusualplaceattenratherthaneightoclockx�
+
+Ciphertext: ukixukydromeiwszxwiokunukhxhroajroanqyebtlkjegad
+Inverse key matrix modulo 26: [5 12; 15 25]

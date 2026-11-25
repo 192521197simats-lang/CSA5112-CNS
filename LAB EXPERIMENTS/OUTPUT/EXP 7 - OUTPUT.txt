@@ -1,0 +1,8 @@
+EXP 7 - SAMPLE OUTPUT
+Sample input:
+KHOOR ZRUOG
+QWERTYUIOPASDFGHJKLZXCVBNM
+
+Program output:
+Ciphertext: Enter the substitution alphabet (cipher A-Z mapping): Possible plaintext: RPIID TDGIO
+

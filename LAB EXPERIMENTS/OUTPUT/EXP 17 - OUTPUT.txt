@@ -1,0 +1,5 @@
+EXP 17 - SAMPLE OUTPUT
+Program output:
+DES decryption uses encryption round keys in reverse order: K16, K15, ..., K1.
+The key schedule itself can be generated normally, then consume the subkeys backwards.
+Round shift schedule: 1 1 2 2 2 2 2 2 1 2 2 2 2 2 2 1 

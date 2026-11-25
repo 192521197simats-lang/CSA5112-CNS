@@ -1,0 +1,8 @@
+EXP 8 - SAMPLE OUTPUT
+Sample input:
+MONARCHY
+HELLO WORLD
+
+Program output:
+Keyword: Plaintext: Cipher alphabet: MONARCHYBDEFGIJKLPQSTUVWXZ
+Ciphertext: YRFFJ VJPFA

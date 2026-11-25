@@ -1,0 +1,8 @@
+EXP 22 - SAMPLE OUTPUT
+Program output:
+S-DES CBC test-vector task:
+IV = 10101010, key = 0111111101, plaintext = 00000001 00000010 00000011.
+Use S-DES encryption for each 8-bit block: C_i = E_K(P_i XOR C_(i-1)); C_0=IV.
+This source explains the CBC calculation. Implementing the full S-DES tables is required to verify the supplied vector.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

@@ -1,0 +1,5 @@
+EXP 19 - SAMPLE OUTPUT
+Program output:
+Educational CBC demo (toy block transform; not real 3DES).
+Cipher blocks: 8B 79 E8 
+For security use a vetted library and modern authenticated encryption.

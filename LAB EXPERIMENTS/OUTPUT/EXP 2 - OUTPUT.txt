@@ -1,0 +1,7 @@
+EXP 2 - SAMPLE OUTPUT
+Sample input:
+QWERTYUIOPASDFGHJKLZXCVBNM
+HELLO WORLD
+
+Program output:
+Enter a 26-letter substitution alphabet: Enter plaintext (letters only): Ciphertext: ITSSG VGKSR

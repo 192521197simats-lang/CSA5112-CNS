@@ -1,0 +1,58 @@
+EXP 39 - SAMPLE OUTPUT
+Sample input:
+KHOOR ZRUOG
+
+Program output:
+Additive cipher ciphertext: All 26 possible shifts (plaintext candidates):
+Shift  0: KHOOR ZRUOG
+
+Shift  1: JGNNQ YQTNF
+
+Shift  2: IFMMP XPSME
+
+Shift  3: HELLO WORLD
+
+Shift  4: GDKKN VNQKC
+
+Shift  5: FCJJM UMPJB
+
+Shift  6: EBIIL TLOIA
+
+Shift  7: DAHHK SKNHZ
+
+Shift  8: CZGGJ RJMGY
+
+Shift  9: BYFFI QILFX
+
+Shift 10: AXEEH PHKEW
+
+Shift 11: ZWDDG OGJDV
+
+Shift 12: YVCCF NFICU
+
+Shift 13: XUBBE MEHBT
+
+Shift 14: WTAAD LDGAS
+
+Shift 15: VSZZC KCFZR
+
+Shift 16: URYYB JBEYQ
+
+Shift 17: TQXXA IADXP
+
+Shift 18: SPWWZ HZCWO
+
+Shift 19: ROVVY GYBVN
+
+Shift 20: QNUUX FXAUM
+
+Shift 21: PMTTW EWZTL
+
+Shift 22: OLSSV DVYSK
+
+Shift 23: NKRRU CUXRJ
+
+Shift 24: MJQQT BTWQI
+
+Shift 25: LIPPS ASVPH
+

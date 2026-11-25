@@ -1,0 +1,7 @@
+EXP 11 - SAMPLE OUTPUT
+Compilation failed for this source.
+Compiler message:
+/usr/bin/ld: /tmp/ccxiwSdc.o: in function `main':
+exp11.c:(.text+0x49): undefined reference to `log2'
+collect2: error: ld returned 1 exit status
+

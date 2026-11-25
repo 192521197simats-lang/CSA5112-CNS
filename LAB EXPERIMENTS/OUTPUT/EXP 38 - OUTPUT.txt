@@ -1,0 +1,9 @@
+EXP 38 - SAMPLE OUTPUT
+Program output:
+Hill cipher known-plaintext attack demonstration.
+For 2x2 Hill, choose two independent plaintext vectors P1,P2 and matching C1,C2.
+Arrange P=[P1 P2], C=[C1 C2]. If det(P) has an inverse modulo 26,
+the key matrix is K = C * inverse(P) (mod 26).
+This program is a calculation guide; enter pairs and perform modular matrix operations.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

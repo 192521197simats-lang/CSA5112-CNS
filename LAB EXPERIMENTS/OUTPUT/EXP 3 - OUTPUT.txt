@@ -1,0 +1,7 @@
+EXP 3 - SAMPLE OUTPUT
+Sample input:
+MONARCHY
+INSTRUMENTS
+
+Program output:
+Keyword: Plaintext: Ciphertext: GATLMZCLRQXA

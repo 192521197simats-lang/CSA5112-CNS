@@ -1,0 +1,7 @@
+EXP 36 - SAMPLE OUTPUT
+Sample input:
+AFFINE CIPHER
+5 8
+
+Program output:
+Plaintext: Enter a and b (a must be coprime with 26): Ciphertext: IHHWVC SWFRCP

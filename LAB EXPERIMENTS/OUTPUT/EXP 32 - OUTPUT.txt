@@ -1,0 +1,8 @@
+EXP 32 - SAMPLE OUTPUT
+Program output:
+DSA uses a fresh secret nonce k for each signature.
+The signature includes r and s; a different k normally produces a different signature for the same message.
+If k is reused or exposed, the private key may be recovered. Use a secure nonce generator.
+This program summarizes the implication; it is not a full DSA implementation.
+
+NOTE: This source is explanatory/conceptual and does not implement the full cryptographic calculation.

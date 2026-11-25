@@ -1,0 +1,4 @@
+EXP 35 - SAMPLE OUTPUT
+Program output:
+Plaintext: send more money
+Ciphertext: beok bjfp owwnh

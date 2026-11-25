@@ -1,0 +1,6 @@
+EXP 24 - SAMPLE OUTPUT
+Program output:
+n=3599 = 59 * 61
+phi(n)=3480
+e=31
+d=3031 (inverse of e mod phi)

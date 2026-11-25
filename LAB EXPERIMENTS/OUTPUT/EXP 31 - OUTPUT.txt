@@ -1,0 +1,5 @@
+EXP 31 - SAMPLE OUTPUT
+Program output:
+CMAC reduction constants: 64-bit block: Rb=0x1B; 128-bit block: Rb=0x87.
+The shift implements multiplication by x in GF(2^n). If the top bit was 1,
+XOR Rb to reduce modulo the field polynomial.

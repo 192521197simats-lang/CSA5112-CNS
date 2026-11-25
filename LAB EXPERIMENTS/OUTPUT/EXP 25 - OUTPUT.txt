@@ -1,0 +1,5 @@
+EXP 25 - SAMPLE OUTPUT
+Program output:
+Example n=77 and plaintext block=14
+gcd(block,n)=7
+This reveals a nontrivial factor of n: 7 and 11

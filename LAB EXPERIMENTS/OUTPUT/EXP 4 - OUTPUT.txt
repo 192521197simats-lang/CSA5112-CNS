@@ -1,0 +1,7 @@
+EXP 4 - SAMPLE OUTPUT
+Sample input:
+ATTACK AT DAWN
+LEMON
+
+Program output:
+Plaintext: Key (letters): Ciphertext: LXFOPV EF RNHR
