@@ -1,3 +1,0 @@
-#include <stdio.h>
-long long powmod(long long a,long long e,long long q){long long r=1;while(e){if(e&1)r=r*a%q;a=a*a%q;e>>=1;}return r;}
-int main(){long long q,g,xA,xB,A,B;printf("Public q and generator g: ");scanf("%lld%lld",&q,&g);printf("Alice secret x, Bob secret y: ");scanf("%lld%lld",&xA,&xB);A=powmod(g,xA,q);B=powmod(g,xB,q);printf("Alice sends %lld; Bob sends %lld\n",A,B);printf("Shared Alice=%lld, Bob=%lld\n",powmod(B,xA,q),powmod(A,xB,q));puts("Using x^g instead of g^x does not form the usual DH construction and may reveal structure; standard DH relies on exponentiation in a finite group.");return 0;}

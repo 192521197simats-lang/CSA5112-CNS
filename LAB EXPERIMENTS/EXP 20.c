@@ -1,2 +1,0 @@
-#include <stdio.h>
-int main(){puts("CBC ciphertext bit error in C1:");puts("- P1 is corrupted in corresponding bit positions (block cipher avalanche may affect the rest of P1).");puts("- P2 has the same bit flipped in the corresponding position because P2 = D(C2) XOR C1.");puts("- Blocks P3 onward are unaffected.");puts("If a bit error occurs in source plaintext P1 before encryption, C1 is changed; CBC chaining then changes every later ciphertext block (with high probability), so all later plaintext blocks are affected on decryption.");return 0;}

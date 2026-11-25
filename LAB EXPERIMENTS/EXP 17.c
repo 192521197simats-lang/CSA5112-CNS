@@ -1,2 +1,0 @@
-#include <stdio.h>
-int main(){int shifts[16]={1,1,2,2,2,2,2,2,1,2,2,2,2,2,2,1};puts("DES decryption uses the same round keys in reverse order: K16 ... K1.");puts("Key schedule decryption: start from PC-2 subkey extraction; reverse the cumulative rotations.");int cumulative=0;for(int r=1;r<=16;r++){cumulative=(cumulative+shifts[r-1])%28;printf("Round %2d: rotate C,D by %d total positions (for reverse schedule, undo cumulative rotations)\n",r,cumulative);}return 0;}

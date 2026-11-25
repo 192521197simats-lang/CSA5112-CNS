@@ -1,2 +1,0 @@
-#include <stdio.h>
-int main(){puts("SHA-3/Keccak state has 25 lanes (5x5). For a 1024-bit rate, rate lanes are 1024/64=16; capacity lanes are 9.");puts("With permutation ignored and original zero lanes tracked only by positional movement, no new nonzero lanes can appear in the initially zero capacity positions; the answer depends on the lane-mixing permutation that the question says to ignore.");puts("Therefore, under the stated ignore-permutation assumption, these capacity lanes remain zero forever. With Keccak permutation included, diffusion changes this.");return 0;}
