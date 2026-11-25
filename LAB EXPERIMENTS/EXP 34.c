@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){puts("Padding rule: append a 1 bit, then zero bits until the next full block.");puts("Always pad, including an already aligned message, by adding a complete padding block.");puts("Reason: receiver can unambiguously identify/remove padding and know the original length.");puts("This program summarizes the mode/padding requirement; see EXP 21 for the byte-level length demonstration.");return 0;}

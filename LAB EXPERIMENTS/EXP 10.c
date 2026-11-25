@@ -1,0 +1,3 @@
+#include <stdio.h>
+#include <ctype.h>
+int main(){char m[5][5]={{'M','F','H','I','K'},{'U','N','O','P','Q'},{'Z','V','W','X','Y'},{'E','L','A','R','G'},{'D','S','T','B','C'}},s[500],p[500],out[600];printf("Plaintext: ");fgets(s,500,stdin);int n=0;for(int i=0;s[i];i++)if(isalpha(s[i]))p[n++]=toupper(s[i]);p[n]=0;int z=0;for(int i=0;i<n;i+=2){char a=p[i],b=i+1<n?p[i+1]:'X';int r1=0,c1=0,r2=0,c2=0;for(int r=0;r<5;r++)for(int c=0;c<5;c++){if(m[r][c]==a)r1=r,c1=c;if(m[r][c]==b)r2=r,c2=c;}if(r1==r2)out[z++]=m[r1][(c1+1)%5],out[z++]=m[r2][(c2+1)%5];else if(c1==c2)out[z++]=m[(r1+1)%5][c1],out[z++]=m[(r2+1)%5][c2];else out[z++]=m[r1][c2],out[z++]=m[r2][c1];}out[z]=0;printf("Ciphertext: %s\n",out);return 0;}

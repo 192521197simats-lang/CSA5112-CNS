@@ -1,0 +1,3 @@
+#include <stdio.h>
+#include <ctype.h>
+int main(){char c;int b=1;puts("Frequency-attack hint for affine cipher: most common ciphertext B may map to E; second U may map to T.");puts("Use C=aP+b (mod 26), test allowed a values and solve b from assumed mappings.");puts("This program demonstrates mapping guesses; full ciphertext analysis is left for the student.");printf("Enter ciphertext letters to convert using guessed B->E, U->T (type # to stop): ");while((c=getchar())!='#'&&c!=EOF){if(isalpha(c)){char x=toupper(c);int p=(x-'B'+26)%26;putchar((p+ 'E')%26+'A');}else putchar(c);}puts("");return 0;}

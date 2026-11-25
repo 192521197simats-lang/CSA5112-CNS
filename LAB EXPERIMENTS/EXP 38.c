@@ -1,0 +1,3 @@
+#include <stdio.h>
+int inv(int x){x=(x%26+26)%26;for(int i=1;i<26;i++)if(x*i%26==1)return i;return -1;}
+int main(){int p[2][2],c[2][2];printf("Plaintext pair matrix (4 numbers): ");scanf("%d%d%d%d",&p[0][0],&p[0][1],&p[1][0],&p[1][1]);printf("Ciphertext pair matrix (4 numbers): ");scanf("%d%d%d%d",&c[0][0],&c[0][1],&c[1][0],&c[1][1]);int d=(p[0][0]*p[1][1]-p[0][1]*p[1][0])%26,di=inv(d);if(di<0){puts("Pair matrix not invertible modulo 26; supply independent pairs.");return 0;}int ip[2][2]={{p[1][1]*di%26,(-p[0][1]*di%26+26)%26},{(-p[1][0]*di%26+26)%26,p[0][0]*di%26}};puts("Recovered key matrix (C*P^-1 mod26):");for(int i=0;i<2;i++){for(int j=0;j<2;j++)printf("%d ",(c[i][0]*ip[0][j]+c[i][1]*ip[1][j])%26);puts("");}return 0;}
